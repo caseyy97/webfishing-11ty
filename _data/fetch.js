@@ -1,6 +1,6 @@
-import EleventyFetch from "@11ty/eleventy-fetch";
+const EleventyFetch = require("@11ty/eleventy-fetch");
 
-export default async function () {
+module.exports = async function () {
 	let url = "https://webfishing.kukinuki.dev/data.json";
 
 	/* This returns a promise */
