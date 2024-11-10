@@ -1,9 +1,6 @@
 ﻿---
 layout: layouts/base.njk
-title: Casey's Webfishing Code!
-code: AAAAAA
-current-date: 10/11/2024
-current-time: 4:20 pm AEST
+title: Casey's WEBFISHING Code!
 ---
 <div class="flex flex-col min-h-screen">
 <div class="grow hero" style="background-image: url(https://webfishing.kukinuki.dev/bg.jpg);">
@@ -11,16 +8,16 @@ current-time: 4:20 pm AEST
 <div class="card glass w-96">
     <div class="card-body items-center">
         <h1 class="card-title">Lobby Code</h1>
-        <h1 class="card-title">{{ code }}</h1>
-        <h2>As of {{ current-date }} at {{ current-time }}</h2>
+        <code>{{ fetch.Code }}</code>
+        {% if fetch.Date != null %}
+        <h2>As at {{ fetch.Date }} at {{ fetch.Time }}</h2>
+        {% endif %}
     </div>
 </div>
 </div>
 <footer class="flex items-center footer bg-base-300 text-base-content p-4">
     <div class="grow">
-        <aside>
-        <p>Webfishing created by <a href="https://lamedeveloper.itch.io/">lamedev</a><br>Website created by <a href="https://github.com/caseyy97">Casey</a></p>
-        </aside>
+        <p>WEBFISHING created by <a href="https://lamedeveloper.itch.io/">lamedev</a></p>
     </div>
     <div class="justify-self-end">
         <label class="swap swap-rotate">

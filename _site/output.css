@@ -1225,6 +1225,12 @@ html {
   outline-offset: 2px;
 }
 
+.mockup-phone .display {
+  overflow: hidden;
+  border-radius: 40px;
+  margin-top: -25px;
+}
+
 .mockup-browser .mockup-browser-toolbar .input {
   position: relative;
   margin-left: auto;
@@ -1502,4 +1508,29 @@ html {
 .text-base-content {
   --tw-text-opacity: 1;
   color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
+}
+
+body {
+  font-family: "Just Another Hand", cursive;
+  letter-spacing: .1rem;
+}
+
+.card-title {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+code {
+  font-size: 2rem;
+}
+
+footer p {
+  font-size: 1.5rem;
 }
