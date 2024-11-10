@@ -1,0 +1,19 @@
+{
+  "name": "webfishing-11ty",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev:tailwind": "tailwindcss -i ./_includes/style/style.css -o ./_site/output.css --watch",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.14"
+  }
+}
