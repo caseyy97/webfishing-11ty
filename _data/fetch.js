@@ -1,7 +1,7 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function () {
-	let url = "https://webfishing.kukinuki.dev/data.json";
+	let url = "https://webfishing-files.kukinuki.dev/data.json";
 
 	/* This returns a promise */
 	return EleventyFetch(url, {
